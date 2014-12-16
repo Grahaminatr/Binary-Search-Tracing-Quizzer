@@ -25,7 +25,7 @@ public class MainQuizzer {
 	else if(leftGuess == left && rightGuess == right && middleGuess != middle || leftGuess == left && rightGuess != right && middleGuess == middle || leftGuess != left && rightGuess == right && middleGuess == middle)
 		{
 		counter = counter + 2;
-		play();
+		herp();
 		}
 	else if(leftGuess == left && rightGuess != right && middleGuess != middle || leftGuess != left && rightGuess == right && middleGuess != middle || leftGuess != left && rightGuess != right && middleGuess == middle )
 		{
@@ -37,7 +37,7 @@ public class MainQuizzer {
 		herp();
 		}
 	}
-		}
+		
 	public static void derp()
 		{
 		System.out.println("Please input the numbers you would like to use for your ArrayList. When you are done type in -1 to finish");
